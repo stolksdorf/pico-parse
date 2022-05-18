@@ -1,0 +1,16 @@
+{
+  "name": "pico-parse",
+  "version": "1.0.0",
+  "description": "An incredibly simple parser using regex-based rules",
+  "main": "picoparse.js",
+  "scripts": {
+    "dev": "pico-check -w ./tests",
+    "test": "pico-check ./tests"
+  },
+  "keywords": ["parser", "lexer", "bnf", "regex"],
+  "author": "stolksdorf",
+  "license": "MIT",
+  "devDependencies": {
+    "pico-check": "^1.2.2"
+  }
+}
